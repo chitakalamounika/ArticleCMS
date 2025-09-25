@@ -1,0 +1,24 @@
+-- Create Users table
+CREATE TABLE users (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    username NVARCHAR(50) NOT NULL,
+    password NVARCHAR(50) NOT NULL
+);
+
+-- Insert sample users
+INSERT INTO users (username, password)
+VALUES ('admin', 'password123'), 
+       ('jane', 'doe123');
+
+-- Create Articles table
+CREATE TABLE articles (
+    id INT PRIMARY KEY IDENTITY(1,1),
+    title NVARCHAR(100) NOT NULL,
+    author NVARCHAR(100) NOT NULL,
+    body NVARCHAR(MAX) NOT NULL,
+    image_url NVARCHAR(200)
+);
+
+-- Insert a sample article
+INSERT INTO articles (title, author, body)
+VALUES ('Sample Article', 'Admin', 'This is a sample article.');
