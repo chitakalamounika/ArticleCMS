@@ -124,10 +124,17 @@ Add these keys:
 - `BLOB_CONTAINER` (`cms`)  
 - `BLOB_URL`  
 
-### 5. Visit your live app
-👉 `https://<your-app-service>.azurewebsites.net`
+---
 
-## 📸 Screenshots
+## ✅ Screenshots to Collect
+- Terminal: `flask run` working  
+- Browser: `http://127.0.0.1:5000` homepage  
+- Azure SQL Database overview & query editor  
+- Azure Blob container with images  
+- Azure App Service overview & settings  
+- Live deployed app in browser
+
+- ## 📸 Screenshots
 
 ### 1. Local Flask App Running
 ![Local Run](screenshots/local_run.png)
@@ -142,12 +149,3 @@ Add these keys:
 ![Deployed App](screenshots/deployed_app.png)
 
 
----
-
-## ✅ Screenshots to Collect
-- Terminal: `flask run` working  
-- Browser: `http://127.0.0.1:5000` homepage  
-- Azure SQL Database overview & query editor  
-- Azure Blob container with images  
-- Azure App Service overview & settings  
-- Live deployed app in browser  
