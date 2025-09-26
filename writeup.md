@@ -17,32 +17,32 @@ All resources are organized under a dedicated resource group for easy management
 ### 2. Storage Container
 Blob storage created to store application files and static assets.  
 
-![Storage Container](screenshots/storage_container.png)
+![Storage Container](screenshots/blobcontainer.png)
 
 ---
 
 ### 3. Azure SQL Database
 Configured SQL Database used by the Flask web app for content storage.  
 
-![SQL Database](screenshots/sql_db.png)
+![SQL Database](screenshots/DBserver.png)
 
 ---
 
 ### 4. Web App
 Flask application deployed as an **Azure App Service**.  
 
-![Web App](screenshots/web_app.png)
+![Web App](screenshots/Azure1.png)
 
 ---
 
 ### 5. Logging Configuration
 Application logging is enabled in Azure to monitor and troubleshoot.  
 
-![Logging](screenshots/logging.png)
+![Logging](screenshots/Appservicelogs.png)
 
 ---
 
 ### 6. Redirect URI Setup (Authentication)
 Redirect URI configured for authentication (if OAuth / identity provider is enabled).  
 
-![Redirect URI](screenshots/redirect_uri.png)
+![Redirect URI](screenshots/ArticleCMS.png)
