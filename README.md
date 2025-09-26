@@ -137,15 +137,15 @@ Add these keys:
 - ## 📸 Screenshots
 
 ### 1. Local Flask App Running
-![Local Run](screenshots/local_run.png)
+![Local Run](screenshots/ArticleCMS.png)
 
 ### 2. Azure SQL Database
-![Azure SQL](screenshots/azure_sql.png)
+![Azure SQL](screenshots/DBserver.png)
 
 ### 3. Azure Blob Storage
 ![Blob Storage](screenshots/blob_storage.png)
 
 ### 4. Deployed App
-![Deployed App](screenshots/deployed_app.png)
+![Deployed App](screenshots/Azure1.png)
 
 
