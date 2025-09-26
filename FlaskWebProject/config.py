@@ -16,7 +16,7 @@ class Config:
 
     # Azure Blob Storage config
     BLOB_CONNECTION_STRING = os.environ.get("BLOB_CONNECTION_STRING")
-    BLOB_CONTAINER = os.environ.get("BLOB_CONTAINER", "article-images")
+    BLOB_CONTAINER = os.environ.get("BLOB_CONTAINER", "cms")
     BLOB_URL = os.environ.get("BLOB_URL")  # e.g. "https://<storageaccount>.blob.core.windows.net/article-images"
 
 # Default config object
