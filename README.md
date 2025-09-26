@@ -127,6 +127,21 @@ Add these keys:
 ### 5. Visit your live app
 👉 `https://<your-app-service>.azurewebsites.net`
 
+## 📸 Screenshots
+
+### 1. Local Flask App Running
+![Local Run](screenshots/local_run.png)
+
+### 2. Azure SQL Database
+![Azure SQL](screenshots/azure_sql.png)
+
+### 3. Azure Blob Storage
+![Blob Storage](screenshots/blob_storage.png)
+
+### 4. Deployed App
+![Deployed App](screenshots/deployed_app.png)
+
+
 ---
 
 ## ✅ Screenshots to Collect
