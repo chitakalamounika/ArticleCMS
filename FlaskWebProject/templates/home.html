@@ -5,9 +5,20 @@
 <ul class="list-group">
     {% for article in articles %}
     <li class="list-group-item">
-        <h5><a href="/article/{{ article.id }}">{{ article.title }}</a></h5>
+        <h5>
+            <a href="{{ url_for('article', article_id=article.id) }}">
+                {{ article.title }}
+            </a>
+        </h5>
         <p><strong>By:</strong> {{ article.author }}</p>
-        <p>{{ article.body }}</p>
+        <p>{{ article.body[:200] }}...</p>
+
+        {% if article.image_url %}
+            <img src="{{ article.image_url }}" 
+                 alt="Article Image" 
+                 class="img-fluid rounded mt-2" 
+                 style="max-width: 300px;">
+        {% endif %}
     </li>
     {% endfor %}
 </ul>
