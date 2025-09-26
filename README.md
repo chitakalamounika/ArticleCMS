@@ -52,7 +52,7 @@ $env:SECRET_KEY="supersecretkey"
 $env:SQL_CONNECTION_STRING="Driver={ODBC Driver 18 for SQL Server};Server=tcp:<your-sql-server>.database.windows.net,1433;Database=<your-db>;Uid=<your-admin-user>;Pwd=<your-password>;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
 $env:BLOB_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=<yourstorageaccount>;AccountKey=<youraccountkey>;EndpointSuffix=core.windows.net"
 $env:BLOB_CONTAINER="cms"
-$env:BLOB_URL="https://<yourstorageaccount>.blob.core.windows.net/cms"
+$env:BLOB_URL="https://portal.azure.com/?websitesextension_ext=asd.featurePath%3Danalysis%2FLinuxAppDown#@chitakalamounika541gmail.onmicrosoft.com/resource/subscriptions/8063cd22-f8b9-40c7-b6e6-31febd574cb4/resourceGroups/flaskweb/providers/Microsoft.Storage/storageAccounts/flaskweb/storagebrowser"
 ```
 
 ### 5. Run the app
@@ -111,7 +111,7 @@ jobs:
       - name: Deploy to Azure Web App
         uses: azure/webapps-deploy@v2
         with:
-          app-name: "<your-app-service-name>"
+          app-name: "ArticleCMS"
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: .
 ```
